@@ -1,4 +1,4 @@
-.zdanie{
+.zdanie {
     position: absolute;
     background-image: url('pic/zdanie.jpg');
     background-size: cover;
@@ -17,7 +17,7 @@
     left: 0;
     height: 600px;
     top: 0;
-    background: linear-gradient(135deg,#083e67,#00548a);
+    background: linear-gradient(135deg, #083e67, #00548a);
     opacity: 0.5;
 
 }
@@ -53,7 +53,7 @@
     src: url("text/ALSHauss-Medium.woff") format('woff');
 }
 
-#closeBth{
+#closeBth {
     cursor: pointer;
     float: right;
     font-size: 40px;
@@ -61,7 +61,7 @@
     margin-right: 10px;
 }
 
-#warning_scam{
+#warning_scam {
     text-align: center;
     font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 19px;
@@ -69,7 +69,7 @@
     top: -11px;
 }
 
-#zagolovok_1{
+#zagolovok_1 {
     position: relative;
     font-family: "ALSHauss-Bold", sans-serif;
     font-size: 80px;
@@ -78,25 +78,25 @@
     color: white;
 }
 
-#menu{
+#menu {
     transform: scale(0.4);
     position: absolute;
     top: 35px;
     left: 10px;
 }
 
-#found{
+#found {
     transform: scale(1.2);
     position: absolute;
     top: 110px;
     left: 45px;
 }
 
-#text_up{
+#text_up {
     position: absolute;
     top: 65px;
     left: 90px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
     color: white;
     text-decoration: underline;
@@ -104,16 +104,16 @@
     justify-content: space-between;
 }
 
-#text_up p{
+#text_up p {
     margin-right: 20px;
     margin-left: 20px;
 }
 
-#text_up_2{
+#text_up_2 {
     position: absolute;
     top: 65px;
     left: 1250px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
     color: white;
     text-decoration: underline;
@@ -121,11 +121,11 @@
     margin-right: 20px;
 }
 
-#text_up_3{
+#text_up_3 {
     position: absolute;
     top: 65px;
     left: 1500px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
     color: white;
     text-decoration: underline;
@@ -133,7 +133,7 @@
     margin-right: 20px;
 }
 
-#logo{
+#logo {
     position: absolute;
     width: 150px;
     height: 70px;
@@ -141,7 +141,7 @@
     left: 1680px;
 }
 
-#info{
+#info {
     max-width: 700px;
     padding: 20px;
     margin: 25px;
@@ -150,7 +150,7 @@
     top: -250px;
 }
 
-#info_zag{
+#info_zag {
     text-align: left;
     font-weight: 300;
     font-family: "ALSHauss-Medium", sans-serif;
@@ -158,15 +158,15 @@
     text-decoration: underline;
 }
 
-#info_data{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#info_data {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #828282;
 }
 
-#info_ss{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#info_ss {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-decoration: underline;
@@ -174,25 +174,25 @@
     color: #0079c2;
 }
 
-#info_text{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#info_text {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #000;
 }
 
-#info img{
+#info img {
     border-radius: 8px;
     width: 588px;
     height: 331px;
 }
 
-#new_novo{
+#new_novo {
     position: relative;
     margin-top: 40px;
 }
 
-#photo_our{
+#photo_our {
     max-width: 700px;
     max-height: 2912px;
     padding: 20px;
@@ -206,20 +206,20 @@
     flex-direction: column;
 }
 
-#row{
+#row {
     display: flex;
     width: 950px;
     height: 300px;
     padding: 10px;
 }
 
-#cell{
+#cell {
     flex: 1;
     width: 200px;
     padding: 10px;
     margin-left: 20px;
-    background-color: rgb(130,130,130, 0.10);
-    background-color: rgb(0,73,165, 0.10);
+    background-color: rgb(130, 130, 130, 0.10);
+    background-color: rgb(0, 73, 165, 0.10);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -231,13 +231,13 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-#im_all_photo{
+#im_all_photo {
     background-image: url(pic/all_photo.jpg);
     position: relative;
     width: 400px;
@@ -245,14 +245,14 @@
     border-radius: 8px;
 }
 
-#image{
+#image {
     margin-left: -110px;
     width: 30%;
     height: auto;
     border-radius: 8px;
 }
 
-#tyrin{
+#tyrin {
     text-align: center;
     font-family: "ALSHauss-Medium", sans-serif;
     font-size: 23px;
@@ -260,7 +260,7 @@
     margin-top: -7px;
 }
 
-#tyrin_info{
+#tyrin_info {
     margin-left: 200px;
     text-align: left;
     font-family: "ALSHauss-Lignf", sans-serif;
@@ -270,7 +270,7 @@
     color: #0079c2;
 }
 
-#newspaper_niz{
+#newspaper_niz {
     margin-left: 200px;
     text-align: left;
     font-family: "ALSHauss-Lignf", sans-serif;
@@ -288,7 +288,7 @@
     margin-left: auto;
 }
 
-#contact{
+#contact {
     font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -296,7 +296,7 @@
     margin-left: 40px;
 }
 
-#con_2{
+#con_2 {
     font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -306,18 +306,18 @@
     margin-top: -10px;
 }
 
-.cr img{
+.cr img {
     position: absolute;
     top: 35px;
     left: 10px;
 }
 
-.search_wrapper{
+.search_wrapper {
     position: relative;
 }
 
-.search::placeholder{
-    color: rgb(255, 255, 255,0.30);
+.search::placeholder {
+    color: rgb(255, 255, 255, 0.30);
     opacity: 1;
 }
 
@@ -355,19 +355,19 @@
     margin-left: 20px;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: transparent;
     outline: none;
 }
 
-#found_menu{
+#found_menu {
     transform: scale(1.2);
     position: absolute;
     top: 200px;
     left: 45px;
 }
 
-#row_menu{
+#row_menu {
     display: flex;
     width: 1600px;
     height: 300px;
@@ -375,15 +375,15 @@
     margin-top: 50px;
 }
 
-#cell_menu{
+#cell_menu {
     flex: 1;
     width: 700px;
     padding: 10px;
     margin-left: 80px;
-    border:#000;
+    border: #000;
 }
 
-#zagol_menu{
+#zagol_menu {
     font-family: "ALSHauss-Medium", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -392,7 +392,7 @@
     color: #fff;
 }
 
-#menu_text{
+#menu_text {
     display: block;
     font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
@@ -402,7 +402,7 @@
     color: #fff;
 }
 
-#row_infa{
+#row_infa {
     display: flex;
     width: 1500px;
     height: 200px;
@@ -411,19 +411,19 @@
     margin-left: 10px;
 }
 
-#cell_infa{
+#cell_infa {
     flex: 1;
     width: 700px;
     padding: 10px;
     margin-left: 80px;
-    border:#000;
+    border: #000;
 }
 
-#text_up_infa{
+#text_up_infa {
     position: absolute;
     top: 65px;
     left: 90px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
     color: #0079C2;
     text-decoration: underline;
@@ -431,16 +431,16 @@
     justify-content: space-between;
 }
 
-#text_up_infa p{
+#text_up_infa p {
     margin-right: 20px;
     margin-left: 20px;
 }
 
-#text_up_2_infa{
+#text_up_2_infa {
     position: absolute;
     top: 65px;
     left: 1250px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
     color: #0079C2;
     text-decoration: underline;
@@ -448,11 +448,11 @@
     margin-right: 20px;
 }
 
-#text_up_3_infa{
+#text_up_3_infa {
     position: absolute;
     top: 65px;
     left: 1500px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
     color: #0079C2;
     text-decoration: underline;
@@ -470,15 +470,15 @@
     margin-left: auto;
 }
 
-#info_cont{
+#info_cont {
     margin: 10px;
     margin-left: 40px;
     border: 20px;
     height: 560px;
 }
 
-#put{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#put {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     text-decoration: underline;
@@ -486,15 +486,15 @@
     color: #828282;
 }
 
-#zagl_info{
+#zagl_info {
     font-family: "ALSHauss-Medium", sans-serif;
     font-weight: 500;
     font-size: 44px;
     color: #000;
 }
 
-#ss_info_infa{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#ss_info_infa {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     text-decoration: underline;
@@ -502,8 +502,8 @@
     color: #0079c2;
 }
 
-#neprof_infa{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#neprof_infa {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     text-decoration: underline;
@@ -511,48 +511,48 @@
     color: #0079c2;
 }
 
-#podel_infa{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#podel_infa {
+    font-family: "ALSHauss-Lignf", sans-serif;
     padding-top: 270px;
     font-weight: 300;
     font-size: 16px;
     color: #828282;
 }
 
-#row_podel{
+#row_podel {
     display: flex;
     margin-top: -80px;
     margin-left: 65px;
 }
 
-#scach{
+#scach {
     transform: scale(0.4);
     width: 100px;
     height: auto;
     margin-right: -50px;
 }
 
-#sam{
+#sam {
     transform: scale(0.3);
     width: 100px;
     height: auto;
     margin-right: -50px;
 }
 
-#neprof_text{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#neprof_text {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     text-decoration-skip-ink: none;
-    color:  #000;
+    color: #000;
 }
 
-#neprof_img1{
+#neprof_img1 {
     transform: scale(1.2);
     margin: 40px;
 }
 
-#neprof_img2{
+#neprof_img2 {
     margin: 10px;
     margin-left: -5px;
 }
@@ -567,8 +567,8 @@
     margin-top: 250px;
 }
 
-#podel_neprof{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#podel_neprof {
+    font-family: "ALSHauss-Lignf", sans-serif;
     padding-top: 150px;
     font-weight: 300;
     font-size: 16px;
@@ -576,30 +576,30 @@
     margin-top: -40px;
 }
 
-#pers_zagol{
+#pers_zagol {
     font-family: "ALSHauss-Medium", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #000;
 }
 
-#pers_text{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#pers_text {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #000;
 }
 
-#podel_pers{
+#podel_pers {
     margin-top: -200px;
-    font-family: "ALSHauss-Lignf",sans-serif;
+    font-family: "ALSHauss-Lignf", sans-serif;
     padding-top: 270px;
     font-weight: 300;
     font-size: 16px;
     color: #828282;
 }
 
-#podval_pers{
+#podval_pers {
     position: relative;
     left: 0;
     border-top: 1px solid rgba(130, 130, 130, 0.5);
@@ -610,16 +610,16 @@
     top: 4155px;
 }
 
-#pers_text_2{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#pers_text_2 {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #000;
     margin-right: 700px;
 }
 
-#podel_vac{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#podel_vac {
+    font-family: "ALSHauss-Lignf", sans-serif;
     padding-top: 270px;
     font-weight: 300;
     font-size: 16px;
@@ -627,8 +627,8 @@
     margin-top: -235px;
 }
 
-#vac_dop_text{
-    font-family: "ALSHauss-Lignf",sans-serif;
+#vac_dop_text {
+    font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #828282;
@@ -638,7 +638,7 @@
 }
 
 
-#anket{
+#anket {
     border: 4px solid #0079c2;
     border-radius: 8px;
     width: 270px;
@@ -656,7 +656,8 @@
 }
 
 .modal {
-    display: none; /* скрываем модальное окно по умолчанию */
+    display: none;
+    /* скрываем модальное окно по умолчанию */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -664,7 +665,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 73, 165,0.5);
+    background-color: rgb(0, 73, 165, 0.5);
 }
 
 .modal-content {
@@ -691,7 +692,7 @@
     cursor: pointer;
 }
 
-#vacans_anket{
+#vacans_anket {
     font-family: "ALSHauss-Medium", sans-serif;
     font-weight: 500;
     font-size: 40px;
@@ -700,13 +701,13 @@
     margin-left: 20px;
 }
 
-.colum-container{
+.colum-container {
     display: grid;
     margin-left: 20px;
     grid-template-columns: 1fr 2fr;
 }
 
-.colum-cell{
+.colum-cell {
     width: 100%;
     height: 40px;
     margin: 10px;
@@ -715,14 +716,14 @@
     align-items: left;
 }
 
-#vacans_cont{
+#vacans_cont {
     font-family: "ALSHauss-Lignf", sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #000;
 }
 
-.input_vacans{
+.input_vacans {
     width: 70%;
     height: 60%;
     border: 3px solid #0049a5;
@@ -733,7 +734,7 @@
     color: black;
 }
 
-.colum-cell select{
+.colum-cell select {
     background-color: white;
     font-family: "ALSHauss-Lignf", sans-serif;
     font-size: 16px;
@@ -808,7 +809,31 @@
     font-size: 16px;
 }
 
-.vacans_input_file {
+#vacans_input_file {
+    /* background: #0079c2;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "ALSHauss-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff; */
+    display: none;
+}
+
+.file-input__label {
+    background: #0079c2;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "ALSHauss-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    width: 50%;
+}
+
+#vacans_submit {
     background: #0079c2;
     border-radius: 8px;
     text-align: center;
