@@ -82,7 +82,165 @@
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Содержимое модального окна...</p>
+                    <div id="modalContent">
+                        <p id="vacans_anket">Анкета</p>
+                        <form>
+                            <div class="colum-container">
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">Фамилия</p>
+                                </div>
+                                <div class="colum-cell">
+                                    <input type="text" class="input_vacans" placeholder="Фамилия">
+                                </div>
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">Имя</p>
+                                </div>
+                                <div class="colum-cell">
+                                    <input type="text" class="input_vacans" placeholder="Имя">
+                                </div>
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">Отчество</p>
+                                </div>
+                                <div class="colum-cell">
+                                    <input type="text"class="input_vacans"  placeholder="Отчество">
+                                </div>
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">Электронная почта</p>
+                                </div>
+                                <div class="colum-cell">
+                                    <input type="email" class="input_vacans" placeholder="Электронная почта">
+                                </div>
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">Регион фактического<br> проживания </p>
+                                </div>
+                                <div class="colum-cell">
+                                    <select>
+                                        <option value="" disabled selected style="color: rgba(130, 130, 130, 0.9);">Выберите регион проживания</option>
+                                        <option value="1">Алтайский край</option>
+                                        <option value="2">Амурская область</option>
+                                        <option value="3">Архангельская область</option>
+                                        <option value="4">Астраханская область</option>
+                                        <option value="5">Белгородская область</option>
+                                        <option value="6">Брянская область</option>
+                                        <option value="7">Владимирская область</option>
+                                        <option value="8">Волгоградская область</option>
+                                        <option value="9">Вологодская область</option>
+                                        <option value="10">Воронежская область</option>
+                                        <option value="11">Донецкая Народная Республика</option>
+                                        <option value="12">Еврейская автономная область</option>
+                                        <option value="13">Забайкальский край</option>
+                                        <option value="14">Запорожская область</option>
+                                        <option value="15">Ивановская область</option>
+                                        <option value="16">Иркутская область</option>
+                                        <option value="17">Кабардино-Балкарская Республика</option>
+                                        <option value="18">Калининградская область</option>
+                                        <option value="19">Калужская область</option>
+                                        <option value="20">Камчатский край</option>
+                                        <option value="21">Карачаево-Черкесская Республика</option>
+                                        <option value="22">Кемеровская область</option>
+                                        <option value="23">Кировская область</option>
+                                        <option value="24">Костромская область</option>
+                                        <option value="25">Краснодарский край</option>
+                                        <option value="26">Красноярский край</option>
+                                        <option value="27">Крым</option>
+                                        <option value="28">Курганская область</option>
+                                        <option value="29">Курская область</option>
+                                        <option value="30">Ленинградская область</option>
+                                        <option value="31">Липецкая область</option>
+                                        <option value="32">Луганская Народная Республика</option>
+                                        <option value="33">Магаданская область</option>
+                                        <option value="34">Москва</option>
+                                        <option value="35">Московская область</option>
+                                        <option value="36">Мурманская область</option>
+                                        <option value="37">Ненецкий автономный округ</option>
+                                        <option value="38">Нижегородская область</option>
+                                        <option value="39">Новгородская область</option>
+                                        <option value="40">Новосибирская область</option>
+                                        <option value="41">Омская область</option>
+                                        <option value="42">Оренбургская область</option>
+                                        <option value="43">Орловская область</option>
+                                        <option value="44">Пензенская область</option>
+                                        <option value="45">Пермский край</option>
+                                        <option value="46">Приморский край</option>
+                                        <option value="47">Псковская область</option>
+                                        <option value="48">Республика Адыгея</option>
+                                        <option value="49">Республика Алтай</option>
+                                        <option value="50">Республика Башкортостан</option>
+                                        <option value="51">Республика Бурятия</option>
+                                        <option value="52">Республика Дагестан</option>
+                                        <option value="53">Республика Ингушетия</option>
+                                        <option value="54">Республика Калмыкия</option>
+                                        <option value="55">Республика Карелия</option>
+                                        <option value="56">Республика Коми</option>
+                                        <option value="57">Республика Марий Эл</option>
+                                        <option value="58">Республика Мордовия</option>
+                                        <option value="59">Республика Саха (Якутия)</option>
+                                        <option value="60">Республика Северная Осетия — Алания</option>
+                                        <option value="61">Республика Татарстан</option>
+                                        <option value="62">Республика Тыва</option>
+                                        <option value="63">Республика Хакасия</option>
+                                        <option value="64">Ростовская область</option>
+                                        <option value="65">Рязанская область</option>
+                                        <option value="66">Самарская область</option>
+                                        <option value="67">Санкт-Петербург</option>
+                                        <option value="68">Саратовская область</option>
+                                        <option value="69">Сахалинская область</option>
+                                        <option value="70">Свердловская область</option>
+                                        <option value="71">Севастополь</option>
+                                        <option value="72">Смоленская область</option>
+                                        <option value="73">Ставропольский край</option>
+                                        <option value="74">Тамбовская область</option>
+                                        <option value="75">Тверская область</option>
+                                        <option value="76">Томская область</option>
+                                        <option value="77">Тульская область</option>
+                                        <option value="78">Тюменская область</option>
+                                        <option value="79">Удмуртская Республика</option>
+                                        <option value="80">Ульяновская область</option>
+                                        <option value="81">Хабаровский край</option>
+                                        <option value="82">Ханты-Мансийский автономный округ — Югра</option>
+                                        <option value="83">Херсонская область</option>
+                                        <option value="84">Челябинская область</option>
+                                        <option value="85">Чеченская Республика</option>
+                                        <option value="86">Чувашская Республика</option>
+                                        <option value="87">Чукотский автономный округ</option>
+                                        <option value="88">Ямало-Ненецкий автономный округ</option>
+                                        <option value="89">Ярославская область</option>
+                                    </select>
+                                </div>
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">О себе</p>
+                                </div>
+                                <div class="colum-cell">
+                                    <textarea class="input_vacans" style="height: 80%;" placeholder="О себе"></textarea>
+                                </div>
+                                <div class="colum-cell">
+                                    <p id="vacans_cont">Резюме</p>
+                                </div>
+                                <div class="colum-cell">
+                                    <input id="vacans_input_file" type="file" accept=".pdf, doc, docx, xls, xlsx, rtf">
+                                </div>
+                                <div class="colum-cell">
+                                </div>
+                                <div class="colum-cell">
+                                    <label class="checkbox style-c">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Я не робот</div>
+                                    </label>
+                                </div>
+                                <div class="colum-cell">
+                                </div>
+                                <div class="colum-cell">
+                                    <label class="checkbox style-c">
+                                        <input type="checkbox" />
+                                        <div class="checkbox__checkmark"></div>
+                                        <div class="checkbox__body">Выражаю свое согласие на обработку персональных данных в соответствии с полным текстом</div>
+                                    </label>
+                                </div>
+                            </div>
+                            <button id="vacans_input_file" type="submit">Отправить</button>
+                        </form>
+                    </div>
             </div>
         </div>
     </div>
