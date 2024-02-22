@@ -656,6 +656,11 @@
     margin-top: -135px;
     position: absolute;
     text-align: center;
+    cursor: pointer;
+    font-family: "ALSHauss-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
 }
 
 .modal {
