@@ -306,10 +306,17 @@
     margin-top: -10px;
 }
 
+.cr {
+    display: inline-block;
+    padding-top: 35px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
 .cr img {
-    position: absolute;
-    top: 35px;
-    left: 10px;
+    /* position: absolute; */
+    /* top: 35px;
+    left: 10px; */
 }
 
 .search_wrapper {
@@ -676,6 +683,7 @@
     border-radius: 8px;
     width: 50%;
     height: auto;
+    margin-top: 100px;
 }
 
 .close {
@@ -810,14 +818,6 @@
 }
 
 #vacans_input_file {
-    /* background: #0079c2;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    font-family: "ALSHauss-Medium", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #fff; */
     display: none;
 }
 
@@ -831,6 +831,7 @@
     font-size: 20px;
     color: #fff;
     width: 50%;
+    line-height: 40px;
 }
 
 #vacans_submit {
@@ -842,4 +843,25 @@
     font-weight: 500;
     font-size: 20px;
     color: #fff;
+    border: 4px solid #0079c2;
+    width: 183px;
+    height: 40px;
+}
+
+#vacans_otmena{
+    border: 4px solid rgba(130, 130, 130, 0.5);
+    background-color: white;
+    border-radius: 8px;
+    width: 183px;
+    height: 40px;
+    font-family: "ALSHauss-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(130, 130, 130, 0.5);
+    margin-left: 420px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }

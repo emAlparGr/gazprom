@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="wight=device-wight, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="menu.js"></script>
         <title>Меню</title>
     </head>
     <body style = "background-color: #0049A5;">
-        <div class="cr">
-            <img src="pic/crest.png" alt="no crest">
-        </div>
         <form>
+            <div class="cr" onclick="goBack()">
+                <img src="pic/crest.png" alt="no crest">
+            </div>
             <div class="search_wrapper">
                 <input type="search" name="text" class="search" id="serch_input" placeholder="Что вы хотите найти?" 
                 onfocus="this.placeholder =' '"
@@ -45,7 +46,9 @@
                 <p id="menu_text">Закупки малого объема</p>
                 <p id="menu_text">Требования к товарам</p>
                 <p id="menu_text">Объявленные закупки</p>
-                <p id="menu_text">Размещение информации в соответствии с п.13 ст.4 Федерального закона от 18.07.2011 №233-ФЗ</p>
+                <a href="/gazprom/infa.html">
+                    <p id="menu_text">Размещение информации в соответствии с п.13 ст.4 Федерального закона от 18.07.2011 №233-ФЗ</p>
+                </a>
             </div>
             <div id="cell_menu">
                 <p id="zagol_menu">Охрана природы </p>
@@ -59,13 +62,19 @@
                 <p id="zagol_menu">Горячая линия</p>
             </div>
             <div id="cell_menu">
-                <p id="zagol_menu">Непрофильные активы</p>
+                <a href="/gazprom/neprof.html">
+                    <p id="zagol_menu">Непрофильные активы</p>
+                </a>
             </div>
             <div id="cell_menu">
                 <p id="zagol_menu">Карьера</p>
-                <p id="menu_text">Вакансия</p>
+                <a href="/gazprom/vacans.html?">
+                    <p id="menu_text">Вакансии</p>
+                </a>
                 <p id="menu_text">Практика</p>
-                <p id="menu_text">Политика обработки персональных данных</p>
+                <a href="/gazprom/pers_data.html">
+                    <p id="menu_text">Политика обработки персональных данных</p>
+                </a>
             </div>
             <div id="cell_menu">
                 <p id="zagol_menu">Контактная информация</p>

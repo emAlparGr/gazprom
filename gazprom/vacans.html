@@ -12,7 +12,9 @@
 <body>
     <div id="verh">
         <div id="menu">
-            <img src="pic/menu_sin.png" alt="menu no">
+            <a href="/gazprom/menu.html">
+                <img src="pic/menu_sin.png" alt="menu no">
+            </a>
         </div>
         <div id="row_infa">
             <div id="cell_infa">
@@ -39,7 +41,9 @@
             </div>
             <div id="cell_infa">
                 <div id="logo">
-                    <img src="pic/logo.png" alt="logo no">
+                    <a href="/gazprom/glavna.html">
+                        <img src="pic/logo.png" alt="logo no">
+                    </a>
                 </div>
             </div>
         </div>
@@ -90,25 +94,25 @@
                                     <p id="vacans_cont">Фамилия</p>
                                 </div>
                                 <div class="colum-cell">
-                                    <input type="text" class="input_vacans" placeholder="Фамилия">
+                                    <input type="text" class="input_vacans" maxlength="200" placeholder="Фамилия">
                                 </div>
                                 <div class="colum-cell">
                                     <p id="vacans_cont">Имя</p>
                                 </div>
                                 <div class="colum-cell">
-                                    <input type="text" class="input_vacans" placeholder="Имя">
+                                    <input type="text" class="input_vacans" maxlength="200"  placeholder="Имя">
                                 </div>
                                 <div class="colum-cell">
                                     <p id="vacans_cont">Отчество</p>
                                 </div>
                                 <div class="colum-cell">
-                                    <input type="text"class="input_vacans"  placeholder="Отчество">
+                                    <input type="text"class="input_vacans" maxlength="200"  placeholder="Отчество">
                                 </div>
                                 <div class="colum-cell">
                                     <p id="vacans_cont">Электронная почта</p>
                                 </div>
                                 <div class="colum-cell">
-                                    <input type="email" class="input_vacans" placeholder="Электронная почта">
+                                    <input type="email" class="input_vacans" maxlength="300"  placeholder="Электронная почта">
                                 </div>
                                 <div class="colum-cell">
                                     <p id="vacans_cont">Регион фактического<br> проживания </p>
@@ -211,7 +215,7 @@
                                     <p id="vacans_cont">О себе</p>
                                 </div>
                                 <div class="colum-cell">
-                                    <textarea class="input_vacans" style="height: 80%;" placeholder="О себе"></textarea>
+                                    <textarea class="input_vacans" maxlength="500"  style="height: 80%;" placeholder="О себе"></textarea>
                                 </div>
                                 <div class="colum-cell">
                                     <p id="vacans_cont">Резюме</p>
@@ -240,8 +244,13 @@
                                         <div class="checkbox__body">Выражаю свое согласие на обработку персональных данных в соответствии с полным текстом</div>
                                     </label>
                                 </div>
+                                <div class="colum-cell">
+                                    <button id="vacans_submit" type="submit">Отправить</button>
+                                </div>
+                                <div class="colum-cell">
+                                    <button id="vacans_otmena">Отмена</button>
+                                </div>
                             </div>
-                            <button id="vacans_submit" type="submit">Отправить</button>
                         </form>
                     </div>
             </div>

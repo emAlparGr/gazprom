@@ -21,3 +21,10 @@ window.onload = () => {
     }
   }
 }
+
+$(document).ready(function () {
+  $("#vacans_otmena").click(function () {
+    $(".modal").hide(); // скрываем модальное окно
+  });
+});
+
